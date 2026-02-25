@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
      <h1>Our technology partner</h1>
-      <Marquee play>
+      <Marquee play pauseOnHover={true} speed={50} gradient={true}  gradientColor={[255, 255, 255]} gradientWidth={100}>
         <div className='image_wrapper'>
         <img src={one} className="App-logo" alt="logo" />
         </div>
